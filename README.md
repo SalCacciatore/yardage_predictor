@@ -15,7 +15,13 @@ Problem to be solved: Do past receiving yards do a good job of predicting future
 
 <h2>Contents</h2>
 * Yardage_predictor.ipynb -- Jupyter notebook that performs the analysis and creates the models.
-* yardage_app.py --  Python file that drives the web app.
+
+* streamlit_app.py --  Python file that drives the web app.
+
+* Trailing_week.csv and week_by_week.csv -- player-level receiving data from nflverse
+
+
+
 
 
 <h2>Findings</h2>
