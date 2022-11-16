@@ -103,7 +103,7 @@ teams = list(projections.reset_index()['posteam'].unique())
 
 players = projections.reset_index()
 
-projections1 = projections[['games','pYards','xYards/game','yards/game']].round(1).head(50)
+projections1 = projections.reset_index()[['receiver_player_name','games','pYards','xYards/game','yards/game']].round(1).head(50)
 
 week_by_week = pd.read_csv('weekly_stats.csv')
 
