@@ -18,6 +18,11 @@ Problem to be solved: Do past receiving yards do a good job of predicting future
 * yardage_app.py --  Python file that drives the web app.
 
 
+<h2>Findings</h2>
+
+* Opportunity metrics (targets, air yards, etc.) are more useful to predicting future wide receiver performance than efficiency metrics (catch rate, yards after catch, etc.).
+
+
 <h2>Data Sources</h2>
 
 * nflverse (https://nflverse.nflverse.com/)
