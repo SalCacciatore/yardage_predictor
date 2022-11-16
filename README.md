@@ -4,7 +4,7 @@ Big data is becoming a big part of our world and sports are no execption. Teams 
 
 On such example of this is using modeling to find out what metrics are most predictive of future success. For example, what are the elements of wide receiver play in the NFL that are most important?
 
-Problem to be solved: Do past receiving yards do a good job of predicting future receiving yards or are there other metrics that can do a better job?
+<b>Problem to be solved:</b> Do past receiving yards do a good job of predicting future receiving yards or are there other metrics that can do a better job?
 
 <h2>Methodology</h2>
 
@@ -23,7 +23,7 @@ Problem to be solved: Do past receiving yards do a good job of predicting future
 
 * play_by_play_model.pkl -- backwards-looking model that predicts yardage on the play-py-play level
 
-* in_season_model.pkl -- forwards-looking model that takes 3-6 games of data for a receiver and predicts there yardage total for the following game.
+* in_season_model.pkl -- forwards-looking model that takes 3-6 games of data for a receiver and predicts their yardage total for the following game.
 
 
 
