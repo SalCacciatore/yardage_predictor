@@ -88,7 +88,7 @@ warnings.filterwarnings('ignore')
 # In[128]:
 
 
-trailing_weeks_all = pd.read_csv('trailing_weeks.csv')
+projections = pd.read_csv('trailing_weeks.csv')
 
 
 
@@ -96,7 +96,6 @@ trailing_weeks_all = pd.read_csv('trailing_weeks.csv')
 # In[130]:
 
 
-projections = trailing_weeks.sort_values('pYards',ascending=False).set_index(['receiver_player_name','posteam'])
 
 projections = projections.drop_duplicates()
 
