@@ -8,13 +8,13 @@ Problem to be solved: Do past receiving yards do a good job of predicting future
 
 <h2>Key Metrics</h2>
 
-Receiving yards -- how many yards a player gains
-Targets -- how often the player is thrown the ball
-Completed passs/completion/reception -- when a player successfully catches a target
-Air Yards -- how far in the air the ball travels before the player attempts to catch the ball
-aDOT -- Average depth of target, or air yards per target
-Yardage after catch (YAC) -- the yardage the receiver gains after the catch
-Implied team total -- how many points a player's team is projected to score in the given game; this is derived from betting markets
+* Receiving yards -- how many yards a player gains
+* Targets -- how often the player is thrown the ball
+* Completed passs/completion/reception -- when a player successfully catches a target
+* Air Yards -- how far in the air the ball travels before the player attempts to catch the ball
+* aDOT -- Average depth of target, or air yards per target
+* Yardage after catch (YAC) -- the yardage the receiver gains after the catch
+* Implied team total -- how many points a player's team is projected to score in the given game; this is derived from betting markets
 
 
 <h2>Methodology</h2>
