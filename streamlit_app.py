@@ -21,16 +21,12 @@ from plotly import graph_objects as go
 # In[34]:
 
 
-#load previously created models
-
-#play_by_play_model = joblib.load('play_by_play_model.pkl')
-in_season_model = joblib.load('in_season_model.pkl')
 
 
 # In[53]:
 
 
-#create functions
+#functions
 
 def total_finder(home_or_away,home_total,away_total):
     if home_or_away == 'home':
@@ -95,17 +91,6 @@ warnings.filterwarnings('ignore')
 trailing_weeks_all = pd.read_csv('trailing_weeks.csv')
 
 
-# In[129]:
-
-
-trailing_weeks = trailing_weeks_all[trailing_weeks_all['target_week']==11]
-trailing_weeks.dropna(inplace=True)
-
-
-prediction_X = trailing_weeks[['xYards/game','RB','WR','FB']]
-
-
-trailing_weeks['pYards']=in_season_model.predict(prediction_X)
 
 
 # In[130]:
