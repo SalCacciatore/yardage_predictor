@@ -23,7 +23,7 @@ from plotly import graph_objects as go
 
 #load previously created models
 
-#play_by_play_model = joblib.load('play_by_play_model.pkl')
+play_by_play_model = joblib.load('play_by_play_model.pkl')
 #in_season_model = joblib.load('in_season_model.pkl')
 
 
