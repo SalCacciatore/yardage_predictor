@@ -10,7 +10,7 @@ On such example of this is using modeling to find out what metrics are most pred
 
 * Build a backwards-looking expected yardage model, based on inputs such as air yardage and field position.
 * Use this model as input for a forward-looking model to predict future receiving yards.
-* This model powers the following web app: https://salcacciatore-yardage-predictor-streamlit-app-4ugnic.streamlit.app/
+* This model will power the following web app: https://salcacciatore-yardage-predictor-streamlit-app-4ugnic.streamlit.app/
 
 
 <h2>Contents</h2>
