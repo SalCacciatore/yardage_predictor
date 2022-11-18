@@ -129,6 +129,8 @@ with header:
     st.title("PRO FOOTBALL YARDAGE PREDICTOR")
     st.markdown("Data Source: [nflverse](https://nflverse.nflverse.com/).")
     st.markdown("App and yardage models: Sal Cacciatore")
+    st.markdown("Under construction!")
+
 
 
 
@@ -138,35 +140,35 @@ with header:
 # In[133]:
 
 
-weekly_projections = st.container()
-individual = st.container()
+#weekly_projections = st.container()
+#individual = st.container()
 
 
-with weekly_projections:
-    st.header("Weekly Projections")
-    ldr = st.form(key = '2022')
-    ldr_submitted = ldr.form_submit_button("Click here for this week's yardage projections.")
-    st.markdown("Leaderboard assumes the player is not injured or on a bye.")
-    if ldr_submitted:
-        st.table(data=projections1)
+#with weekly_projections:
+ #   st.header("Weekly Projections")
+ #   ldr = st.form(key = '2022')
+ #   ldr_submitted = ldr.form_submit_button("Click here for this week's yardage projections.")
+ #   st.markdown("Leaderboard assumes the player is not injured or on a bye.")
+ #   if ldr_submitted:
+ #       st.table(data=projections1)
 
 
-with individual:
-    st.header("Player Projections")
-    st.markdown("Look at a player's projections for this week.")
-    sel_col, disp_col = st.columns(2)
+#with individual:
+ #   st.header("Player Projections")
+ #   st.markdown("Look at a player's projections for this week.")
+ #   sel_col, disp_col = st.columns(2)
 
     #form = st.form(key = "player_selection")
-    player_prompt = sel_col.selectbox("Select a team.",options=teams)
-    df = players[players['posteam']==player_prompt]
-    recs = list(df['receiver_player_name'].unique())
-    proj_prompt = sel_col.selectbox("Select a player.",options=recs)
-    current_form = st.form(key='current_selection')
-    t_submitted = current_form.form_submit_button("Submit")
-    if t_submitted:
-        tm = df[df['receiver_player_name']==proj_prompt]
-        st.table(data=tm[['receiver_player_name','posteam','games','pYards','xYards/game','yards/game']].set_index('receiver_player_name'))
-        create_scatter(player_prompt, proj_prompt)
+ #   player_prompt = sel_col.selectbox("Select a team.",options=teams)
+ #   df = players[players['posteam']==player_prompt]
+ #   recs = list(df['receiver_player_name'].unique())
+ #   proj_prompt = sel_col.selectbox("Select a player.",options=recs)
+ #   current_form = st.form(key='current_selection')
+ #   t_submitted = current_form.form_submit_button("Submit")
+ #   if t_submitted:
+ #       tm = df[df['receiver_player_name']==proj_prompt]
+ #       st.table(data=tm[['receiver_player_name','posteam','games','pYards','xYards/game','yards/game']].set_index('receiver_player_name'))
+ #       create_scatter(player_prompt, proj_prompt)
 
 
 
