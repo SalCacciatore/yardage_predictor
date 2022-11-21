@@ -177,6 +177,10 @@ test = st.container()
 
 with test:
     st.header("Widget Test")
+    def what_chart(what_chart_do_you_want):
+        return what_chart_do_you_want
+
+    
     ichart=interactive(what_chart, what_chart_do_you_want=['LAST '+str(days_to_track)+' DAYS','CUSTOM DATE RANGE','CUMULATIVE PROFIT'])
 
  #   sel_col, disp_col = st.columns(2)
