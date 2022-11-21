@@ -182,6 +182,7 @@ with test:
 
     
     ichart=interactive(what_chart, what_chart_do_you_want=['LAST 7 DAYS','CUSTOM DATE RANGE','CUMULATIVE PROFIT'])
+    display(ichart)
 
  #   sel_col, disp_col = st.columns(2)
 
