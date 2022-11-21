@@ -149,7 +149,6 @@ with header:
 
 #weekly_projections = st.container()
 #individual = st.container()
-test = st.container()
 
 
 #with weekly_projections:
@@ -178,17 +177,6 @@ test = st.container()
  #       st.table(data=tm[['receiver_player_name','posteam','games','pYards','xYards/game','yards/game']].set_index('receiver_player_name'))
  #       create_scatter(player_prompt, proj_prompt)
 
-
-with test:
-    st.header("Widget Test")
-    def what_chart(what_chart_do_you_want):
-        return what_chart_do_you_want
-
-    
-    ichart=interactive(what_chart, what_chart_do_you_want=['LAST 7 DAYS','CUSTOM DATE RANGE','CUMULATIVE PROFIT'])
-    display(ichart)
-
- #   sel_col, disp_col = st.columns(2)
 
 
 
