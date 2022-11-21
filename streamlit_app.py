@@ -181,7 +181,7 @@ with test:
         return what_chart_do_you_want
 
     
-    ichart=interactive(what_chart, what_chart_do_you_want=['LAST '+str(days_to_track)+' DAYS','CUSTOM DATE RANGE','CUMULATIVE PROFIT'])
+    ichart=interactive(what_chart, what_chart_do_you_want=['LAST 7 DAYS','CUSTOM DATE RANGE','CUMULATIVE PROFIT'])
 
  #   sel_col, disp_col = st.columns(2)
 
