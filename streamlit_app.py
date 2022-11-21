@@ -15,6 +15,10 @@ from plotly import graph_objects as go
 
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
+
+from IPython.display import display
+
+
 # In[4]:
 
 
