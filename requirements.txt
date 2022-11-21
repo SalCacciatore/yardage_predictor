@@ -5,5 +5,3 @@ IPython
 plotly
 scikit-learn
 joblib
-ipywidgets
-IPython
