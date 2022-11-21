@@ -142,6 +142,7 @@ with header:
 
 #weekly_projections = st.container()
 #individual = st.container()
+test = st.container()
 
 
 #with weekly_projections:
@@ -171,7 +172,9 @@ with header:
  #       create_scatter(player_prompt, proj_prompt)
 
 
-
+with test:
+    st.header("Widget Test")
+ #   sel_col, disp_col = st.columns(2)
 
 
 
