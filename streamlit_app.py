@@ -12,6 +12,9 @@ import nfl_data_py as nfl
 import joblib
 from plotly import graph_objects as go
 
+
+from ipywidgets import interact, interactive, fixed, interact_manual
+import ipywidgets as widgets
 # In[4]:
 
 
@@ -174,6 +177,8 @@ test = st.container()
 
 with test:
     st.header("Widget Test")
+    ichart=interactive(what_chart, what_chart_do_you_want=['LAST '+str(days_to_track)+' DAYS','CUSTOM DATE RANGE','CUMULATIVE PROFIT'])
+
  #   sel_col, disp_col = st.columns(2)
 
 
