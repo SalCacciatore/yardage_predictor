@@ -1,9 +1,5 @@
 <h1>Yardage Predictor</h1>
 
-Big data is becoming a big part of our world and sports are no execption. Teams are increasingly using advanced analytics to find an edge over their competition.
-
-On such example of this is using modeling to find out what metrics are most predictive of future success. For example, what are the elements of wide receiver play in the NFL that are most important?
-
 <b>Problem to be solved:</b> Do past receiving yards do a good job of predicting future receiving yards or are there other metrics that can do a better job?
 
 <h2>Methodology</h2>
