@@ -1,0 +1,8 @@
+"propType","player","position","team","opponent","start","line","sideOneType","sideOneOdds","sideOneValue","sideOneCash","sideOneTickets","sideTwoType","sideTwoOdds","sideTwoValue","sideTwoCash","sideTwoTickets"
+"recv_yd","A. Lazard","WR","GB","LA","2022-12-20T01:15:00Z","48.5","over","-103","undefined","null","null","under","-130","undefined","null","null"
+"recv_yd","C. Watson","WR","GB","LA","2022-12-20T01:15:00Z","48.5","over","-116","undefined","null","null","under","-116","undefined","null","null"
+"recv_yd","R. Tonyan","TE","GB","LA","2022-12-20T01:15:00Z","22.5","over","-116","undefined","null","null","under","-116","undefined","null","null"
+"recv_yd","B. Skowronek","WR","LA","GB","2022-12-20T01:15:00Z","29.5","over","-117","undefined","null","null","under","-115","undefined","null","null"
+"recv_yd","T. Atwell","WR","LA","GB","2022-12-20T01:15:00Z","31.5","over","-127","undefined","null","null","under","-106","undefined","null","null"
+"recv_yd","T. Higbee","TE","LA","GB","2022-12-20T01:15:00Z","28.5","over","-115","undefined","null","null","under","-115","undefined","null","null"
+"recv_yd","V. Jefferson","WR","LA","GB","2022-12-20T01:15:00Z","31.5","over","-118","undefined","null","null","under","-113","undefined","null","null"
