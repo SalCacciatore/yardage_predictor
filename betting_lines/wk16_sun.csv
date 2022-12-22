@@ -1,0 +1,6 @@
+"propType","player","position","team","opponent","start","line","sideOneType","sideOneOdds","sideOneValue","sideOneCash","sideOneTickets","sideTwoType","sideTwoOdds","sideTwoValue","sideTwoCash","sideTwoTickets"
+"recv_yd","A. Lazard","WR","GB","MIA","2022-12-25T18:00:00Z","43.5","over","-115","undefined","null","null","under","-117","undefined","null","null"
+"recv_yd","C. Watson","WR","GB","MIA","2022-12-25T18:00:00Z","53.5","over","-114","undefined","null","null","under","-118","undefined","null","null"
+"recv_yd","R. Tonyan","TE","GB","MIA","2022-12-25T18:00:00Z","21.5","over","-115","undefined","null","null","under","-119","undefined","null","null"
+"recv_yd","J. Waddle","WR","MIA","GB","2022-12-25T18:00:00Z","63.5","over","-118","undefined","null","null","under","-116","undefined","null","null"
+"recv_yd","T. Hill","WR","MIA","GB","2022-12-25T18:00:00Z","87.5","over","-116","undefined","null","null","under","-118","undefined","null","null"
