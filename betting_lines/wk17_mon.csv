@@ -1,0 +1,8 @@
+"propType","player","position","team","opponent","start","line","sideOneType","sideOneOdds","sideOneValue","sideOneCash","sideOneTickets","sideTwoType","sideTwoOdds","sideTwoValue","sideTwoCash","sideTwoTickets"
+"recv_yd","D. Singletary","RB","BUF","CIN","2023-01-03T01:30:00Z","10.5","over","-117","undefined","null","null","under","-115","undefined","null","null"
+"recv_yd","G. Davis","WR","BUF","CIN","2023-01-03T01:30:00Z","44","over","-110","undefined","null","null","under","-120","undefined","null","null"
+"recv_yd","S. Diggs","WR","BUF","CIN","2023-01-03T01:30:00Z","71.5","over","-120","undefined","null","null","under","-110","undefined","null","null"
+"recv_yd","J. Chase","WR","CIN","BUF","2023-01-03T01:30:00Z","82.5","over","-117","undefined","null","null","under","-115","undefined","null","null"
+"recv_yd","J. Mixon","RB","CIN","BUF","2023-01-03T01:30:00Z","24.5","over","-115","undefined","null","null","under","-117","undefined","null","null"
+"recv_yd","T. Higgins","WR","CIN","BUF","2023-01-03T01:30:00Z","68.5","over","-116","undefined","null","null","under","-116","undefined","null","null"
+"recv_yd","T. Boyd","WR","CIN","BUF","2023-01-03T01:30:00Z","35","over","-115","undefined","null","null","under","-115","undefined","null","null"
